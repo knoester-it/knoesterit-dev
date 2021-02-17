@@ -31,14 +31,14 @@ removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issu
 
 [languages]
   [languages.en]
-    baseURL = "https://example.com"
+    baseURL = "https://wonderful-brown-263c5c.netlify.app"
     languageName = "English"
     title = "In English"
     weight = 2
-  [languages.fr]
-    baseURL = "https://example.fr"
-    languageName = "Français"
-    title = "En Français"
+  [languages.nl]
+    baseURL = "https://wonderful-brown-263c5c.netlify.app"
+    languageName = "Dutch"
+    title = "In Nederlands"
     weight = 1
 
 summaryLength = 30  # Listing summary length in words. Also, see `abstract_length` in `params.toml`.

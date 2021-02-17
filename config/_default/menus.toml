@@ -19,11 +19,6 @@
   weight = 30
 
 [[main]]
-  name = "Inspired by"
-  url = "#inspired"
-  weight = 30
-
-[[main]]
   name = "Talks"
   url = "#talks"
   weight = 40

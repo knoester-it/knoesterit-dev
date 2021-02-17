@@ -34,7 +34,7 @@ removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issu
     title = "English"
     weight = 1
   [languages.nl]
-    title = "Dutch"
+    title = "Nederlands"
     weight = 2
 
 summaryLength = 30  # Listing summary length in words. Also, see `abstract_length` in `params.toml`.

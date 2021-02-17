@@ -31,11 +31,13 @@ removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issu
 
 [languages]
   [languages.en]
-    title = "English"
-    weight = 1
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 10
   [languages.nl]
-    title = "Nederlands"
-    weight = 2
+    contentDir = "content/nl"
+    languageName = "Français"
+    weight = 20
 
 summaryLength = 30  # Listing summary length in words. Also, see `abstract_length` in `params.toml`.
 paginate = 10  # Number of items per page in paginated lists.

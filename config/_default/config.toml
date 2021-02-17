@@ -31,15 +31,11 @@ removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issu
 
 [languages]
   [languages.en]
-    baseURL = "https://wonderful-brown-263c5c.netlify.app"
-    languageName = "English"
-    title = "In English"
-    weight = 2
-  [languages.nl]
-    baseURL = "https://wonderful-brown-263c5c.netlify.app"
-    languageName = "Dutch"
-    title = "In Nederlands"
+    title = "English"
     weight = 1
+  [languages.nl]
+    title = "Dutch"
+    weight = 2
 
 summaryLength = 30  # Listing summary length in words. Also, see `abstract_length` in `params.toml`.
 paginate = 10  # Number of items per page in paginated lists.

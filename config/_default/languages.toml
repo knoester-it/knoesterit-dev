@@ -10,15 +10,14 @@
 [Languages]
 
   [Languages.en]
-    LanguageCode        = "en"
+    LanguageCode        = "en-us"
     LanguageName        = "English"
     weight              = 1
 
   [Languages.nl]
     LanguageCode        = "nl"
     LanguageName        = "Nederlands"
-    title               = "Knoester-IT Solutions - Nederlands"
-    weight              = 2
+    weight              = 10
 
 # Uncomment the lines below to configure your website in a second language.
 #[zh]

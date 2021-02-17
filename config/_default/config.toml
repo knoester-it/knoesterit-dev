@@ -29,6 +29,19 @@ hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
 
+[Languages]
+
+  [Languages.en]
+    LanguageCode        = "en"
+    LanguageName        = "English"
+    weight              = 1
+
+  [Languages.nl]
+    LanguageCode        = "nl"
+    LanguageName        = "Nederlands"
+    title               = "Knoester-IT Solutions - Nederlands"
+    weight              = 2
+
 summaryLength = 30  # Listing summary length in words. Also, see `abstract_length` in `params.toml`.
 paginate = 10  # Number of items per page in paginated lists.
 enableEmoji = true

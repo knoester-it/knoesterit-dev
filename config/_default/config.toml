@@ -24,7 +24,7 @@ copyright = ""
 enableGitInfo = false
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "nl"
+defaultContentLanguage = "en"
 hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
@@ -35,18 +35,18 @@ enableEmoji = true
 enableRobotsTXT = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
-disableAliases = true  # Disable aliases when `redirects` is added to the `outputs` below.
 
 [permalinks]
   # If only creating events which are talks, we can optimize event URLs for talks.
   event = "/talk/:slug/"
   # Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
+  authors = "/author/:slug/"
   tags = "/tag/:slug/"
   categories = "/category/:slug/"
   publication_types = "/publication-type/:slug/"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON", "WebAppManifest", "headers", "redirects"]
+  home = ["HTML", "RSS", "JSON", "WebAppManifest", "headers"]
   section = ["HTML", "RSS"]
 
 # Configure the Markdown renderer.
